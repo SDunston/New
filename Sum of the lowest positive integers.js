@@ -7,3 +7,11 @@ For example, when an array is passed like [19, 5, 42, 2, 77], the output should 
 //This problem requires me to find a way to order the numbers properly and then add two numbers together 
 
 //The first thing I need to do is put the numbers in order of highest to lowest 
+
+function sumTwoSmallestNumbers(numbers) {  
+    //Code here
+    let addednumbers = numbers.sort((a,b) => a-b);
+    
+    return addednumbers[0] + numbers[1];
+  }
+  
